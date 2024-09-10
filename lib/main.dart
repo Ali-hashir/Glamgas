@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'providers/app_provider.dart';
 import 'screens/home_screen.dart';
+import 'screens/register_complaint.dart';
 
 void main() {
   runApp(
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
       ),
       home: const HomePage(),
       routes: {
-        // '/registerComplaint': (context) => const RegisterComplaintPage(),
+        '/registerComplaint': (context) => const RegisterComplaintPage(),
         // '/registerProduct': (context) => const RegisterProductPage(),
       },
     );

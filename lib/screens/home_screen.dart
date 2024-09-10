@@ -25,16 +25,16 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       body: Stack(
         children: [
-          // Background Image with reduced opacity
-          Positioned.fill(
-            child: Opacity(
-              opacity: 0.5, // Reduced opacity for the background image
-              child: Image.asset(
-                'assets/pngegg.png', // Ensure the image is placed in the assets folder
-                fit: BoxFit.cover, // Make the image cover the whole screen
-              ),
-            ),
-          ),
+          // // Background Image with reduced opacity
+          // Positioned.fill(
+          //   child: Opacity(
+          //     opacity: 0.5, // Reduced opacity for the background image
+          //     child: Image.asset(
+          //       'assets/pngegg.png', // Ensure the image is placed in the assets folder
+          //       fit: BoxFit.cover, // Make the image cover the whole screen
+          //     ),
+          //   ),
+          // ),
           Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
